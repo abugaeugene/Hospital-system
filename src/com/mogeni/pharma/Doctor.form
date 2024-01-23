@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.mogeni.pharma.Doctor">
+  <grid id="27dc6" binding="DoctorPane" layout-manager="GridLayoutManager" row-count="9" column-count="19" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="62" y="20" width="568" height="311"/>
+    </constraints>
+    <properties>
+      <background color="-15400064"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cefa3" class="javax.swing.JLabel" binding="icondoc">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="com/mogeni/pharma/icons8-doctor-50.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fadeb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="18" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-530699"/>
+          <text value="WHAT OPERATIONS WOULD YOU LIKE TO DO"/>
+        </properties>
+      </component>
+      <grid id="e759d" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="14" row-span="6" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16742913"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f5c45" class="javax.swing.JLabel" binding="txtnamept">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font style="1"/>
+              <foreground color="-16185076"/>
+              <text value="REGISTER NEW PATIENT"/>
+            </properties>
+          </component>
+          <component id="bf0e9" class="javax.swing.JButton" binding="REGISTERButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="REGISTER"/>
+            </properties>
+          </component>
+          <component id="edf6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="com/mogeni/pharma/notes.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f9d1a" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="6" col-span="14" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16742913"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e1cef" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font style="1"/>
+              <foreground color="-16185076"/>
+              <text value="GIVE PRESCRIPTION TO ALREADY EXISTING PATIENT"/>
+            </properties>
+          </component>
+          <component id="d6792" class="javax.swing.JButton" binding="PRESCRIBEButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="PRESCRIBE"/>
+            </properties>
+          </component>
+          <component id="e77b6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="com/mogeni/pharma/prescription.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="77f5a" class="javax.swing.JButton" binding="LOGOUTButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="13" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="LOG OUT"/>
+        </properties>
+      </component>
+      <component id="13465" class="javax.swing.JLabel" binding="txtwelcome">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="13" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-530699"/>
+          <text value="WELCOME DOCTOR"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
